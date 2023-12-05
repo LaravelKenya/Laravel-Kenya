@@ -21,7 +21,6 @@ $ php artisan serve
 -   [Laravel](https://laravel.com/)
 -   [Vue](https://vuejs.org/)
 -   [Tailwindcss](https://tailwindcss.com/)
--   [Laravel Mpesa Package](https://github.com/Iankumu/mpesa)
 -   [Vite](https://vitejs.dev/)
 
 ## Contributing
