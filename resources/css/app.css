@@ -85,4 +85,12 @@
 .font-inter {
     font-family: 'Inter', sans-serif;
 }
-
+.font-weight-700 {
+    font-weight: 700;
+}
+.font-weight-500 {
+    font-weight: 500;
+}
+.font-weight-300 {
+    font-weight: 300;
+}
