@@ -15,7 +15,7 @@ const contents = [
         icon: BookOpenIcon,
         title: "Master Classes",
         description:
-            "Volunteer to teach a masterclass yourself or join one on a subject you're passionate about",
+            "Volunteer to teach a masterclass yourself or join one on a subject you're passionate about any time you are available",
     },
     {
         icon: MapIcon,
@@ -61,7 +61,7 @@ const contents = [
         <div class="pt-10">
             <div class="md:grid md:grid-cols-12 md:gap-8">
                 <div
-                    class="col-span-4"
+                    class="col-span-4 mt-3"
                     v-for="content in contents"
                     :key="content.title"
                 >

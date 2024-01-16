@@ -11,9 +11,9 @@
                     About <span class="text-red-500">Laravel Kenya</span>
                 </h1>
                 <div class="pt-5">
-                    Embark on a journey to amplify Elixir's impact in Kenya
+                    Embark on a journey to amplify Laravel's impact in Kenya
                     through our thriving community.Join us to elevate your
-                    skills and experiences, as we unite passionate Elixir
+                    skills and experiences, as we unite passionate Laravel
                     enthusiasts, foster innovation, and drive the advancement of
                     technology in the heart of Kenya.
                 </div>
