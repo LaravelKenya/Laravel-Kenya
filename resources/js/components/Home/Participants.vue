@@ -25,7 +25,7 @@ const images = [
     <div class="pt-48">
         <div class="flex justify-center">
             <h1 class="text-4xl font-bold font-grotesque">
-                We are <span class="text-red-500">Laravel Kenya</span>
+                Who is behind <span class="text-red-500">Laravel Kenya</span>
             </h1>
         </div>
         <div
@@ -37,7 +37,7 @@ const images = [
             founders united with a common mission of building the home for
             digital talents.
         </div>
-        <div class="md:grid md:grid-cols-12 md:gap-4 pt-4">
+        <div class="flex flex-col md:flex-row gap-4 justify-center">
             <div
                 class="col-span-3"
                 v-for="(image, index) in images"

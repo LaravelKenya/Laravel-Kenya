@@ -5,6 +5,11 @@ const sponsors = [
         logo: "/assets/sponsors-nwrealite.png",
         url: "https://nwrealite.co.ke",
     },
+    {
+        name: "Laravel Kenya",
+        logo: "/assets/lke.jpeg",
+        url: "https://laravelkenya.org",
+    },
 ];
 </script>
 
@@ -17,7 +22,7 @@ const sponsors = [
                 Our <span class="text-red-500">Sponsors</span>
             </h2>
             <div
-                class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-gray-400"
+                class="flex flex-col md:flex-row justify-center text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-gray-400"
             >
                 <a
                     v-for="(sponsor, index) in sponsors"
