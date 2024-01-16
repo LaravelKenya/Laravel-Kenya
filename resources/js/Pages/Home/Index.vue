@@ -5,6 +5,7 @@ import Hero from "@/components/Home/Hero.vue";
 import AboutComponent from "@/components/Home/AboutComponent.vue";
 import WhatHappens from "@/components/Home/WhatHappens.vue";
 import Participants from "@/components/Home/Participants.vue";
+import Sponsors from "@/components/Home/Sponsors.vue";
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import Participants from "@/components/Home/Participants.vue";
     <AboutComponent/>
     <WhatHappens/>
     <Participants/>
+    <Sponsors/>
 </template>
 
 <style scoped>
