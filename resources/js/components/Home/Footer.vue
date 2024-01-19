@@ -32,14 +32,18 @@ const mediaicons = [
 
 <template>
     <div class="pt-40">
-        <div class="bg-black flex flex-row justify-end py-5 px-3 rounded-xl">
+        <div
+            class="bg-black flex flex-col md:flex-row justify-end py-5 px-3 rounded-xl"
+        >
             <div
-                class="text-white text-4xl w-1/3 m-auto px-2 font-bold font-grotesque"
+                class="text-white text-4xl w-full mb-2 md:mb-0 md:w-1/3 m-auto px-2 font-bold font-grotesque"
             >
                 Register Now So You Don't Miss Our Events
             </div>
-            <div class="bg-white w-2/3 p-3 justify-items-end rounded-xl">
-                <div class="flex flex-row justify-center gap-2">
+            <div
+                class="bg-white w-full md:w-2/3 p-3 justify-items-end rounded-xl"
+            >
+                <div class="flex flex-col md:flex-row justify-center gap-2">
                     <div class="w-full py-4">
                         <input
                             type="email"
@@ -59,7 +63,7 @@ const mediaicons = [
     </div>
 
     <div class="pt-10 flex flex-col md:flex-row justify-between">
-        <div class="">
+        <div class="mb-4 md:mb-0 flex justify-center md:justify-normal">
             <a
                 class="font-bold pr-3"
                 v-for="item in navigation"
@@ -68,7 +72,7 @@ const mediaicons = [
                 >{{ item.name }}</a
             >
         </div>
-        <div class="flex flex-row gap-6">
+        <div class="flex flex-row gap-6 justify-center md:justify-normal">
             <a
                 class=""
                 v-for="(media, index) in mediaicons"
