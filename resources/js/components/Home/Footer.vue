@@ -15,17 +15,17 @@ const mediaicons = [
     {
         name: "Youtube",
         logo: "/assets/youtube.png",
-        url: "https://laravelkenya.org/",
+        url: "https://www.youtube.com/@LaravelKenya",
     },
     {
         name: "Twitter",
         logo: "/assets/twitter.png",
-        url: "https://laravelkenya.org/",
+        url: "https://twitter.com/LaravelKenya",
     },
     {
         name: "Whatsapp",
         logo: "/assets/whatsapp.png",
-        url: "https://laravelkenya.org/",
+        url: "https://chat.whatsapp.com/Klr6JYxlUW58ayDBFY1Fb4",
     },
 ];
 </script>
