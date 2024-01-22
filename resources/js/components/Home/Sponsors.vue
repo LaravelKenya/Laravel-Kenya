@@ -22,7 +22,7 @@ const sponsors = [
                 Our <span class="text-red-500">Sponsors</span>
             </h2>
             <div
-                class="flex flex-col md:flex-row justify-center text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-gray-400"
+                class="flex flex-col gap-8 md:flex-row justify-center text-gray-500 sm:gap-12 md:grid-cols-6 lg:grid-cols-6 dark:text-gray-400"
             >
                 <a
                     v-for="(sponsor, index) in sponsors"
