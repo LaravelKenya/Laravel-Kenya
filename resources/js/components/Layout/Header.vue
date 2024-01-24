@@ -13,8 +13,6 @@ const navigation = [
     { name: "Events", href: "#" },
     { name: "Blogs", href: "#" },
     { name: "Media", href: "#" },
-    { name: "Signup", href: "#" },
-    { name: "Login", href: "#" },
 ];
 
 const mobileMenuOpen = ref(false);
